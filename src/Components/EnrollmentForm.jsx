@@ -200,7 +200,7 @@ const EnrollmentForm = ({ closeModal }) => {
           <div>
             <button
               type="submit"
-              className="inline-flex items-center justify-center w-full text-white bg-blue-600 py-4 rounded-lg"
+              className="inline-flex items-center justify-center w-full text-white bg-green-900 py-4 rounded-lg"
             >
               Submit Form
             </button>

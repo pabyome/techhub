@@ -35,12 +35,12 @@ const TrendingWorkshops = () => {
                 Graphics Design
               </h2>
               <p className=" text-justify  text-base font-normal leading-normal">
-                Join our design workshop and immerse yourself in the world of
-                visual storytelling.
+              This comprehensive program is designed to equip you with the
+              skills and knowledge to excel in the fields of Graphics Design.
               </p>
               <button
                 onClick={() => setShowModal(true)}
-                className=" p-2 block my-5 font-bold text-base rounded-lg text-[#3252FB] border border-[#3252FB]"
+                className=" p-2 block my-5 font-bold text-base rounded-lg text-green-900 border border-green-900"
               >
                 Enroll
               </button>
@@ -59,42 +59,15 @@ const TrendingWorkshops = () => {
                 <img src={image1} alt="" />
               </div>
               <h2 className="py-3 text-2xl font-bold leading-normal">
-                Web development
+               Frontend development
               </h2>
               <p className=" text-justify  text-base font-normal leading-normal">
-                Join our web development workshop and immerse yourself in the
-                world of visual storytelling.
+              This comprehensive program is designed to equip you with the
+              skills and knowledge to excel in the fields of Frontend Developement.
               </p>
               <button
                 onClick={() => setShowModal(true)}
-                className=" p-2 block my-5 font-bold text-base rounded-lg text-[#3252FB] border border-[#3252FB]"
-              >
-                Enroll
-              </button>
-
-              {/* Modal */}
-              {showModal &&
-                <div className="fixed inset-0 z-50 bg-black bg-opacity-10 flex justify-center items-center">
-                  <div className="bg-white p-5 rounded-lg w-[90%] max-w-[500px]">
-                    <EnrollmentForm closeModal={() => setShowModal(false)} />
-                  </div>
-                </div>}
-            </div>
-            <div className="w-full p-4 bg-white rounded-2xl">
-              <div className="max-h-[2080px] rounded-2xl overflow-hidden">
-                <img src={image2} className="lg:h-full" alt="" />
-              </div>
-              <h2 className="py-3 text-2xl font-bold leading-normal">
-                UI/UX Design
-              </h2>
-              <p className="text-justify text-base font-normal leading-normal">
-                This comprehensive program is designed to equip you with the
-                skills and knowledge to excel in the fields of data analytics
-                and data science.
-              </p>
-              <button
-                onClick={() => setShowModal(true)}
-                className=" p-2 block my-5 font-bold text-base rounded-lg text-[#3252FB] border border-[#3252FB]"
+                className=" p-2 block my-5 font-bold text-base rounded-lg text-green-900 border border-green-900"
               >
                 Enroll
               </button>
@@ -117,12 +90,96 @@ const TrendingWorkshops = () => {
               </h2>
               <p className="text-justify text-base font-normal leading-normal">
                 This comprehensive program is designed to equip you with the
-                skills and knowledge to excel in the fields of data analytics
-                and data science.
+                skills and knowledge to excel in the fields of backend programming.
               </p>
               <button
                 onClick={() => setShowModal(true)}
-                className=" p-2 block my-5 font-bold text-base rounded-lg text-[#3252FB] border border-[#3252FB]"
+                className=" p-2 block my-5 font-bold text-base rounded-lg text-green-900 border border-green-900"
+              >
+                Enroll
+              </button>
+
+              {/* Modal */}
+              {showModal &&
+                <div className="fixed inset-0 z-50 bg-black bg-opacity-10 flex justify-center items-center">
+                  <div className="bg-white p-5 rounded-lg w-[90%] max-w-[500px]">
+                    <EnrollmentForm closeModal={() => setShowModal(false)} />
+                  </div>
+                </div>}
+            </div>
+
+            <div className="w-full p-4 bg-white rounded-2xl">
+              <div className="max-h-[2080px] rounded-2xl overflow-hidden">
+                <img src={image2} className="lg:h-full" alt="" />
+              </div>
+              <h2 className="py-3 text-2xl font-bold leading-normal">
+                UI/UX Design
+              </h2>
+              <p className="text-justify text-base font-normal leading-normal">
+                This comprehensive program is designed to equip you with the
+                skills and knowledge to excel in the fields of User Inteface and User Experience.
+              </p>
+              <button
+                onClick={() => setShowModal(true)}
+                className=" p-2 block my-5 font-bold text-base rounded-lg text-green-900 border border-green-900"
+              >
+                Enroll
+              </button>
+
+              {/* Modal */}
+              {showModal &&
+                <div className="fixed inset-0 z-50 bg-black bg-opacity-10 flex justify-center items-center">
+                  <div className="bg-white p-5 rounded-lg w-[90%] max-w-[500px]">
+                    <EnrollmentForm closeModal={() => setShowModal(false)} />
+                  </div>
+                </div>}
+            </div>
+
+          
+
+
+            <div className="w-full p-4 bg-white rounded-2xl">
+              <div className="max-h-[2080px] rounded-2xl overflow-hidden">
+                <img src={image2} className="lg:h-full" alt="" />
+              </div>
+              <h2 className="py-3 text-2xl font-bold leading-normal">
+                Office Suite
+              </h2>
+              <p className="text-justify text-base font-normal leading-normal">
+                This comprehensive program is designed to equip you with the
+                skills and knowledge to excel in the fields of office suite.
+              </p>
+              <button
+                onClick={() => setShowModal(true)}
+                className=" p-2 block my-5 font-bold text-base rounded-lg text-green-900 border border-green-900"
+              >
+                Enroll
+              </button>
+
+              {/* Modal */}
+              {showModal &&
+                <div className="fixed inset-0 z-50 bg-black bg-opacity-10 flex justify-center items-center">
+                  <div className="bg-white p-5 rounded-lg w-[90%] max-w-[500px]">
+                    <EnrollmentForm closeModal={() => setShowModal(false)} />
+                  </div>
+                </div>}
+            </div>
+
+            
+            <div className="w-full p-4 bg-white rounded-2xl">
+              <div className="max-h-[2080px] rounded-2xl overflow-hidden">
+                <img src={image2} className="lg:h-full" alt="" />
+              </div>
+              <h2 className="py-3 text-2xl font-bold leading-normal">
+               Robotics
+              </h2>
+              <p className="text-justify text-base font-normal leading-normal">
+                This comprehensive program is designed to equip you with the
+                skills and knowledge to excel in the fields of Robotics.
+              </p>
+              <button
+                onClick={() => setShowModal(true)}
+                className=" p-2 block my-5 font-bold text-base rounded-lg text-green-900 border border-green-900"
               >
                 Enroll
               </button>
