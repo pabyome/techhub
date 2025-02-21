@@ -11,21 +11,21 @@ const Header = () => {
     <div className="relative w-full">
       <nav className="fixed top-0 left-0 w-full bg-white z-10 shadow">
         <div className="flex justify-between items-center max-xl:px-3 py-4 max-w-[1400px] mx-auto">
-          <h1 className="text-xl font-semibold">Fountain TechHub</h1>
+          <h1 className="text-xl font-semibold text-green-900">Fountain TechHub</h1>
           <div className="hidden md:flex gap-[40px] font-normal items-center">
-            <Link to="/" className={pathname === "/" ? "text-[#3252FB]" : ""}>
+            <Link to="/" className={pathname === "/" ? "text-green-900" : ""}>
               Home
             </Link>
 
             <a href="#about">
-              <span className={pathname === "#about" ? "text-[#3252FB]" : ""}>
+              <span className={pathname === "#about" ? "text-green-900" : ""}>
                 About Us
               </span>
             </a>
 
             <a href="#workshop">
               <span
-                className={pathname === "#workshop" ? "text-[#3252FB]" : ""}
+                className={pathname === "#workshop" ? "text-green-900" : ""}
               >
                 Workshop
               </span>
@@ -33,7 +33,7 @@ const Header = () => {
 
             <button
               onClick={() => setShowModal(true)}
-              className="py-2 px-4 rounded-lg bg-[#3252FB] text-white"
+              className="py-2 px-4 rounded-lg bg-green-900 text-white"
             >
               Enroll now
             </button>

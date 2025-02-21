@@ -49,9 +49,9 @@ const HeroSection = () => {
                 type: "spring"
               }}
             >
-              <h1 className="font-medium text-4xl lg:text-[64px] lg:leading-[76px]">
+              <h1 className="font-medium text-3xl lg:text-[64px] lg:leading-[76px]">
                 Equipping Africa with Vital{" "}
-                <span className="text-[#3252FB]">Tech Expertise</span> for
+                <span className="text-green-900">Tech Expertise</span> for
                 Progress.
               </h1>
               <p className=" font-normal text-base my-5">
@@ -61,7 +61,7 @@ const HeroSection = () => {
                 progress, and lead the way in the tech industry with our
                 extensive and immersive training programs.
               </p>
-              <button onClick={() => setShowModal(true)} className=" py-4 px-5 bg-[#3252FB] text-white">
+              <button onClick={() => setShowModal(true)} className=" py-4 px-5 bg-green-900 rounded-lg text-white">
                 Enroll &rarr;
               </button>
             </motion.div>
@@ -111,7 +111,7 @@ const HeroSection = () => {
                 About Us
               </h1>
               <p className="font-normal text-base my-5"> Fountain Tech Hub is the innovation and technology arm of Fountain International High School, Ado Ekiti. At Fountain Tech Hub, we are passionate about empowering individuals and organizations through innovative technology solutions. Our mission is to provide cutting-edge digital services and training that equip our community with the skills and knowledge to thrive in an ever-evolving tech landscape. From desktop publishing and Microsoft packages to graphics and software development, we offer expert-led training programs designed to foster growth and digital literacy. As a forward-thinking tech hub, we aim to cultivate a culture of creativity, learning, and advancement in technology, preparing our students for a bright future in the digital age.</p>
-              <button onClick={() => setShowModal(true)} className=" py-4 px-5 bg-[#3252FB] text-white">
+              <button onClick={() => setShowModal(true)} className=" py-4 px-5 bg-green-900 rounded-lg text-white">
                 Enroll &rarr;
               </button>
             </motion.div>

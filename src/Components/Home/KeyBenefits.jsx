@@ -9,7 +9,7 @@ const keyBenefitsData = [
     img: image4,
     title: "Certification Excellence",
     info: "Propel your career forward by not just completing a course but by becoming certified. At Fountain TechHub, we don't just offer certificates; we provide a stamp of excellence, recognized by industries worldwide.",
-    bgColor: "bg-[#C3A0FF]",
+    bgColor: "bg-[#ffffffff]",
   },
   {
     img: image1,
@@ -21,13 +21,13 @@ const keyBenefitsData = [
     img: image2,
     title: "Experienced Instructors",
     info: "Elevate your learning experience with guidance from industry-seasoned instructors. Our tutors are not just educators; they're accomplished professionals, bringing real-world insights and practical knowledge to every lesson, ensuring you learn from the best in the field.",
-    bgColor: "bg-[#FFD3A0]",
+    bgColor: "bg-[#d9e3d1]",
   },
   {
     img: image3,
     title: "Real-World Projects",
     info: "Immerse yourself in our dynamic learning environment that goes beyond theory. Our curriculum is enriched with real-world projects, offering hands-on experience to bridge the gap between knowledge and practical application. Get ready to apply what you learn in a real professional setting.",
-    bgColor: "bg-[#AEAEAE]",
+    bgColor: "bg-[#eec728]",
   },
 
 ];

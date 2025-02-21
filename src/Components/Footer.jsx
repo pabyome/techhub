@@ -8,13 +8,13 @@ const Footer = () => {
       <div className="max-w-[1240px] mx-auto p-3 lg:py-20 flex flex-col lg:flex-row gap-y-5 md:gap-20">
         <div>
           <h1 className="text-3xl textg-white">Fountain TechHub</h1>
-          <small>
+      
             At Fountain TechHub we equip you with essential tech skills to drive
             <br />
             innovation in the Africa.
-          </small>
+        
         </div>
-        <div className="flex flex-col md:flex-row gap-y-3 md:gap-x-10">
+        <div className="flex flex-col md:flex-row gap-y-3 md:gap-x-36">
           <div>
             <h3 className=" text-xl">
               <b>Quick Links</b>
@@ -24,16 +24,16 @@ const Footer = () => {
              
             </div>
           </div>
-          <div>
+          <div className="space-y-10">
             <h3 className=" text-xl">
               <b>Contact Us</b>
             </h3>
-            <a href="mailto:Techwonderafrica@gmail.com">
-              fountain@gmail.com
+            <a href="">
+              Fountain International High School, Omisanjana,Ado-Ekiti   
             </a>
             <br />
-            <a></a>
-            <address>Nigeria.</address>
+            <a>08030671525, 07034447881</a>
+            
           </div>
         </div>
       </div>
