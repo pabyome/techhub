@@ -54,7 +54,7 @@ const EnrollmentForm = ({ closeModal }) => {
   const handleSubmit = (e) => {
     e.preventDefault();
     if (validateForm()) {
-      alert("Form submitted!");
+      alert("Form submitted");
       closeModal();
     }
   };
